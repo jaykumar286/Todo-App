@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.inputs{
+    margin-top: 10rem;
+    display: flex;
+    gap:1rem;
+    padding: 2rem 0rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputs input{
+    flex-basis: 60%;
+}
+
+.data-heading,.todo-data{
+    display: flex;
+    gap:1rem;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.todo-data{
+   
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.todo-no{
+    flex-basis: 5%;
+    
+}
+
+.todo-item{
+    flex-basis: 65%;
+    
+}
+
+.todo-status{
+    flex-basis: 10%;
+}
+
+.todo-actions{
+    flex-basis: 20%;
+    
+}
